@@ -4,9 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.hytalemodding</groupId>
-    <artifactId>ExamplePlugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+	<!-- ENGLISH: change here the "changeme", "modname" and your version. -->
+	<!-- ENGLISH: verander hier de "changeme", "modname" en je versie. -->
+    <groupId>me.changeme.modname</groupId>
+    <artifactId>MainHytalePlugin</artifactId>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
@@ -15,12 +17,12 @@
     </properties>
 
     <repositories>
-        <!-- Hytale release repository -->
+        <!-- EMGLISH: Hytale release repository -->
         <repository>
             <id>hytale-release</id>
             <url>https://maven.hytale.com/release</url>
         </repository>
-        <!-- Hytale pre-release repository -->
+        <!-- ENGLISH: Hytale pre-release repository -->
         <repository>
             <id>hytale-pre-release</id>
             <url>https://maven.hytale.com/pre-release</url>
@@ -31,7 +33,8 @@
         <dependency>
             <groupId>com.hypixel.hytale</groupId>
             <artifactId>Server</artifactId>
-            <!-- Replace with latest version, Hytale provides jars for the last five releases -->
+            <!-- ENGLISH: Replace with latest version, Hytale provides jars for the last five releases. -->
+            <!-- DUCTH: verander met de laatste ersion, Hytale geeft jars voor de laatste vijf uitgaves. -->
             <version>2026.01.24-6e2d4fc36</version>
             <scope>provided</scope>
         </dependency>
