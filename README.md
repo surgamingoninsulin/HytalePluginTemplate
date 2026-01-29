@@ -3,7 +3,7 @@
 # HytalePluginTemplate
 A standard, up-to-date Hytale plugin template.
 
-Clone Url: <ADD_GIT_URL_HERE>
+Clone Url: https://github.com/surgamingoninsulin/HytalePluginTemplate.git
 
 ## Features
 * **Up-to-date:** Compatible with the latest Hytale API standards.
@@ -18,7 +18,7 @@ Clone this repository using your IDE to get started immediately.
 # HytalePluginTemplate
 Een standaard, up-to-date Hytale plugin template.
 
-Kloon Link: <VOEG_GIT_LINK_HIER>
+Kloon Link: https://github.com/surgamingoninsulin/HytalePluginTemplate.git
 
 ## Kenmerken
 * **Up-to-date:** Compatibel met de nieuwste Hytale API-standaarden.
