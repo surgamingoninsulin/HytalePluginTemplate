@@ -16,8 +16,8 @@ public class MainHytalePlugin extends JavaPlugin {
         super(init);
     }
 	
-	// ENGLISH: this is a example command you can safely delete this if not wanted.
-    // DUTCH: dit is een voorbeeld commando je kan eht vijlig verwijderen als je dit niet wilt.
+	// ENGLISH: this is a example command.
+    // DUTCH: dit is een voorbeeld commando.
 	@Override
 	protected void setup() {
         this.getCommandRegistry().registerCommand(new ExampleCommand("example", "An example command"));
